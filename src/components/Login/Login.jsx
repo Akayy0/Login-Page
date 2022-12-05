@@ -6,15 +6,18 @@ const Login = () => {
         <section>
             <h1>Login</h1>
 
+
             <form>
                 <input type="email" name="email" placeholder='email@gmail.com' />
                 <input type="password" name="password" />
                 <a href="#">Forgot your password?</a>
                 <button type="submit">Login</button>
             </form>
-
-            
         </section>
+
+        <img src={wallpaper} alt="" />
+
+
     </div>
   )
 }
