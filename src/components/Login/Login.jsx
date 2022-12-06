@@ -1,10 +1,11 @@
 import React from 'react'
-
+import wallpaper from '../../assets/images/wallpaper.jpg'
 const Login = () => {
   return (
-    <div>
+    <div className='Login'>
         <section>
-            <h1>Login</h1>
+
+            <h1>Space Program</h1>
 
 
             <form>
@@ -13,10 +14,11 @@ const Login = () => {
                 <a href="#">Forgot your password?</a>
                 <button type="submit">Login</button>
             </form>
+
+            
         </section>
 
         <img src={wallpaper} alt="" />
-
 
     </div>
   )
